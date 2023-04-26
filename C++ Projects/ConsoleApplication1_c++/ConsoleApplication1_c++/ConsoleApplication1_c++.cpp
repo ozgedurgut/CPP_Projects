@@ -13,9 +13,8 @@ struct Worker{
 };
 
 
-void changeName(Worker renamedWorker, string newName) {
-    renamedWorker.name = newName;
-    cout << renamedWorker.name << endl;
+void changeName(Worker* renamedWorker, string newName) {
+    renamedWorker->name = newName;
 }
 
 int main()
@@ -27,7 +26,7 @@ int main()
     worker1.department = "Software";
 
     cout << worker1.name << endl;
-    changeName(worker1, "Hulya");
-   // cout << worker1.name << endl;
+    changeName(&worker1, "Hulya");
+    cout << worker1.name << endl;
     return 0;
 }
