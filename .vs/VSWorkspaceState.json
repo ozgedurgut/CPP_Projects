@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\01_StructuresAndPointers",
-    "\\02_StructureInStructure",
     "\\02_StructureInStructure\\ConsoleApplication1_c++",
-    "\\02_StructureInStructure\\ConsoleApplication1_c++\\ConsoleApplication1_c++"
+    "\\11_Vectors",
+    "\\11_Vectors\\11_03_Vector_ex"
   ],
-  "SelectedNode": "\\02_StructureInStructure\\ConsoleApplication1_c++\\ConsoleApplication1_c++\\main.cpp",
+  "SelectedNode": "\\11_Vectors\\11_03_Vector_ex\\11_03_Vector_ex.sln",
   "PreviewInSolutionExplorer": false
 }
